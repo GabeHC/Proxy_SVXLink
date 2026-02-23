@@ -1,6 +1,6 @@
-﻿# autoProxy (WinAutoProxy branch) – adapted from F1TZO
+﻿# Echolink AutoProxy – adapted from Michel GACEM F1TZO
 
-Windows-focused helper to pick the best public pi9 Echolink proxy and update the EchoLink profile registry file before the client starts. Original concept by Michel GACEM F1TZO; adapted and maintained independently. The Windows script writes the modern EchoLink hive `HKCU\SOFTWARE\K1RFD\EchoLink` (global Options and per-profile Options) and sets SelectedProfile/DefaultProfile; legacy Synergenics keys are no longer touched.
+Cross-platform helper (Linux + Windows) to pick the best public pi9 Echolink proxy and configure your client. Based on Michel GACEM F1TZO’s original idea; adapted and maintained independently. The Windows script writes the modern EchoLink hive `HKCU\SOFTWARE\K1RFD\EchoLink` (global Options and per-profile Options) and sets SelectedProfile/DefaultProfile; legacy Synergenics keys are no longer touched.
 
 What it needs (Windows): PowerShell (Win7+), outbound access to http://www.echolink.org, and an exported EchoLink profile registry file. The script defaults to `%USERPROFILE%\Documents\Echolink\Proxyed.reg`; point `-ProfilePath` to whatever profile export you use. Default proxy password: public (lowercase). Pick the profile name you want EchoLink to start with (example: Proxyed).
 
@@ -29,7 +29,7 @@ License: GPL. Credit to Michel GACEM F1TZO for the original work. Recent updates
 
 ---
 
-# autoProxy（WinAutoProxy 分支）
+# Echolink AutoProxy（Windows）– 改編自 Michel GACEM F1TZO
 
 Windows 版工具，用來在啟動 EchoLink 前挑選最佳 pi9 公用代理並更新 EchoLink 註冊檔設定。原始概念來自 Michel GACEM F1TZO，本專案獨立維護。
 
@@ -57,7 +57,7 @@ Windows 版工具，用來在啟動 EchoLink 前挑選最佳 pi9 公用代理並
   - 起始於：`C:\Users\Gabe\Documents\GitHub\Proxy_SVXLink`
 - 可再加一個後續任務啟動 EchoLink，確保先跑完代理更新。
 
-授權：GPL。致謝 Michel GACEM F1TZO 的原始工作；近期更新由 BV5DJ 完成。# autoProxy (adapted from F1TZO)
+授權：GPL。致謝 Michel GACEM F1TZO 的原始工作；近期更新由 BV5DJ 完成。
 
 Tools to automatically get a free Echolink proxy and configure ModuleEchoLink.conf. Original concept by Michel GACEM F1TZO; adapted and maintained here as an independent project.
 
@@ -91,7 +91,7 @@ License: GPL (credit to Michel GACEM F1TZO for the original work). Recent update
 
 ---
 
-# autoProxy（改編自 F1TZO）
+# Echolink AutoProxy – 改編自 Michel GACEM F1TZO
 
 這個工具用來自動取得免費 Echolink 代理，並設定 ModuleEchoLink.conf。原始概念來自 Michel GACEM F1TZO，本專案在此基礎上獨立維護。
 
@@ -121,7 +121,7 @@ License: GPL (credit to Michel GACEM F1TZO for the original work). Recent update
     - 若需修改檔案路徑或密碼，可用參數覆寫。
     - 執行後重開 EchoLink 以重新載入設定。
 
-授權：GPL（致謝 Michel GACEM F1TZO 的原始工作），近期更新由 BV5DJ 完成。# autoProxy (adapted from F1TZO)
+授權：GPL（致謝 Michel GACEM F1TZO 的原始工作），近期更新由 BV5DJ 完成。
 
 Tools to automatically get a free Echolink proxy and configure ModuleEchoLink.conf. Original concept by Michel GACEM F1TZO; adapted and maintained here as an independent project.
 
